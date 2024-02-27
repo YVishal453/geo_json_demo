@@ -76,6 +76,7 @@ GEM
     crass (1.0.6)
     digest (3.1.1)
     dotenv (2.7.6)
+    encoded_polyline (0.0.2)
     erubi (1.12.0)
     ffi (1.16.3)
     globalid (1.1.0)
@@ -120,6 +121,8 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
+    osrm (0.5.0)
+      encoded_polyline (~> 0, >= 0.0.2)
     public_suffix (4.0.7)
     puma (4.3.12)
       nio4r (~> 2.0)
@@ -227,6 +230,7 @@ DEPENDENCIES
   dotenv
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  osrm
   puma (~> 4.1)
   rails (~> 6.0.6, >= 6.0.6.1)
   sass-rails (>= 6)

@@ -53,3 +53,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# mapbox GL JS library as a Rails engine for use with the asset pipeline
+# gem 'mapbox-gl-rails'
+
+# OSRM Ruby API that allows you to request Open Source Routing Machine https://project-osrm.org/docs/v5.24.0/api/?language=cURL#step-object
+gem 'osrm'
+
